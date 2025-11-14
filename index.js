@@ -1,62 +1,62 @@
-// Challange number 1
-// const prompt = require('prompt-sync')();
-function AffichageInfo(){
-    let nom=prompt('entre votre nom ');
-    let prenom=prompt('entre votre prenom ');
-    let age=prompt('entre votre age ');
-    let sexe=prompt('entre votre sexe ');
-    let numero=prompt('entre votre numero ');
- console.log('hello everyone my name is ' + nom +"  "+ prenom + ", I'm "+age+"years old "+","+sexe+","+"and my number is "+numero);
-}
-// AffichageInfo();
+// // Challange number 1
+// // const prompt = require('prompt-sync')();
+// function AffichageInfo(){
+//     let nom=prompt('entre votre nom ');
+//     let prenom=prompt('entre votre prenom ');
+//     let age=prompt('entre votre age ');
+//     let sexe=prompt('entre votre sexe ');
+//     let numero=prompt('entre votre numero ');
+//  console.log('hello everyone my name is ' + nom +"  "+ prenom + ", I'm "+age+"years old "+","+sexe+","+"and my number is "+numero);
+// }
+// // AffichageInfo();
 
-// Challange 2
-// const prompt = require('prompt-sync')();
-function Conversion(){
-    var temp=prompt('donner moi la température ');
-    var F=(temp*1.8)+32;
-    console.log("la convertit en Fahrenheit"+F)
+// // Challange 2
+// // const prompt = require('prompt-sync')();
+// function Conversion(){
+//     var temp=prompt('donner moi la température ');
+//     var F=(temp*1.8)+32;
+//     console.log("la convertit en Fahrenheit"+F)
 
-}
-// Conversion();
+// }
+// // Conversion();
 
-// Challange 
-// const prompt = require('prompt-sync')();
-function Echange(){
-    let A=21 ;
-    let B= 41 ;
-    let C= 72 ;
-    var VSecondaire =A ;
-    A=B;
-    B=C;
-    C=VSecondaire;
-    console.log(A,B,C);
-}
-// Echange();
+// // Challange 
+// // const prompt = require('prompt-sync')();
+// function Echange(){
+//     let A=21 ;
+//     let B= 41 ;
+//     let C= 72 ;
+//     var VSecondaire =A ;
+//     A=B;
+//     B=C;
+//     C=VSecondaire;
+//     console.log(A,B,C);
+// }
+// // Echange();
 
-// chanllange 4
-// const prompt = require('prompt-sync')();
-function CalculAfficher(){
-    let a = parseInt(prompt('entrer le nombre a '));
-    let b = parseInt(prompt('entrer le nombre b '));
-    let addition= a + b;
-    let soustraction= a-b;
-    let multiplication =a*b;
-    console.log("l'addition est "+ addition +" soustraction "+ soustraction +" multiplication "+multiplication);
-}
+// // chanllange 4
+// // const prompt = require('prompt-sync')();
+// function CalculAfficher(){
+//     let a = parseInt(prompt('entrer le nombre a '));
+//     let b = parseInt(prompt('entrer le nombre b '));
+//     let addition= a + b;
+//     let soustraction= a-b;
+//     let multiplication =a*b;
+//     console.log("l'addition est "+ addition +" soustraction "+ soustraction +" multiplication "+multiplication);
+// }
 // CalculAfficher();
 
 // challange 5 
 // const prompt = require('prompt-sync')();
-function someMoyenne(){
-    let n1 = parseFloat(prompt("Entrez le premier nombre :"));
-    let n2 = parseFloat(prompt("Entrez le deuxième nombre :"));
-    let n3 = parseFloat(prompt("Entrez le troisième nombre :"));
-    let n4 = parseFloat(prompt("Entrez le quatrième nombre :"));
-    let somme = n1 + n2 + n3 + n4;
-    let moyenne = somme / 4;
-    console.log("la moyenne est "+moyenne);
-}
+// function someMoyenne(){
+//     let n1 = parseFloat(prompt("Entrez le premier nombre :"));
+//     let n2 = parseFloat(prompt("Entrez le deuxième nombre :"));
+//     let n3 = parseFloat(prompt("Entrez le troisième nombre :"));
+//     let n4 = parseFloat(prompt("Entrez le quatrième nombre :"));
+//     let somme = n1 + n2 + n3 + n4;
+//     let moyenne = somme / 4;
+//     console.log("la moyenne est "+moyenne);
+// }
 // someMoyenne();
 
 //challange 6
