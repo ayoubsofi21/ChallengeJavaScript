@@ -7,13 +7,13 @@
 
 //   switch (type) {
 //     case "etudiant":
-//       remise = 20; 
+//       remise = 20;
 //       break;
 //     case "senior":
-//       remise = 30; 
+//       remise = 30;
 //       break;
 //     default:
-//       remise = 0; 
+//       remise = 0;
 //   }
 
 //   let prixFinal = prix * (1 - remise/100);
@@ -25,5 +25,4 @@
 // let nom=["ayoub","salima","sofi"];
 // for(let i=0; i<nom.length;i++){
 //   console.log(nom[i]);
-// } 
-cha
+// }

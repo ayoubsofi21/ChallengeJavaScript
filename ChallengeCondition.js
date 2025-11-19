@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+const prompt = require("prompt-sync")();
 // challange 1;
 // const prompt=require('prompt-sync')();
 // function pairInpair(){
@@ -37,7 +37,7 @@ const prompt = require('prompt-sync')();
 // let n1=parseInt(prompt('entrer n 1 '));
 // let n2=parseInt(prompt('entrer n 2 '));
 // if(n1>n2){
-//     console.log('le nombre la plus grand est '+ n1);    
+//     console.log('le nombre la plus grand est '+ n1);
 // }else {
 //     console.log('le nombre la plus moins est '+ n2);
 // }
@@ -80,7 +80,7 @@ const prompt = require('prompt-sync')();
 //     console.log('faible');
 // }else if( longueur.length>6 && /[0-9]/.test(longueur)){
 //     console.log('Moyen');
-// }else if (longueur.length>8 && /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(longueur) && /[0-9]/.test(longueur)  ) 
+// }else if (longueur.length>8 && /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/.test(longueur) && /[0-9]/.test(longueur)  )
 // {
 //     console.log('fort');
 // }
@@ -89,7 +89,7 @@ const prompt = require('prompt-sync')();
 // let  color= prompt("donne un color ");
 // switch(color){
 //     case('rouge'):
-//      console.log("Arret");
+//         console.log("Arret");
 //     break;
 //     case('jaune'):
 //      console.log("Préparez-vous");
@@ -116,14 +116,14 @@ const prompt = require('prompt-sync')();
 // }
 // fizzBuzz()
 // challenge 10
-correctUsername="ayoub";
-correctPassword="1234";
-let username=prompt('entrer votre username :')
-let password=prompt('entre votre password  :')
+correctUsername = "ayoub";
+correctPassword = "1234";
+let username = prompt("entrer votre username :");
+let password = prompt("entre votre password  :");
 if (username === correctUsername && password === correctPassword) {
-    console.log("Bienvenue "+correctUsername);
+  console.log("Bienvenue " + correctUsername);
 } else if (username === correctUsername) {
-    console.log("Mot de passe incorrect");
+  console.log("Mot de passe incorrect");
 } else {
-    console.log("Utilisateur introuvable");
+  console.log("Utilisateur introuvable");
 }
