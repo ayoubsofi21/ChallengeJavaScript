@@ -37,22 +37,64 @@ const prompt = require("prompt-sync")();
 // DetecSymetrie();
 
 // Challenge 6
-function EquilPanier() {
-  let tab = [];
-  for (let i = 1; i <= 5; i++) {
-    let somme = 0;
-    let prix = prompt(`ecrire le prix numero ${i} `);
-    somme = somme + prix;
-    tab.push(prix);
-    var moyenne = somme / tab.length;
-  }
-  console.log("Prix saisis :", tab);
-  console.log("Moyenne :", moyenne);
+// function EquilPanier() {
+//   let tab = [];
+//   for (let i = 1; i <= 5; i++) {
+//     let somme = 0;
+//     let prix = prompt(`ecrire le prix numero ${i} `);
+//     somme = somme + prix;
+//     tab.push(prix);
+//     var moyenne = somme / tab.length;
+//   }
+//   console.log("Prix saisis :", tab);
+//   console.log("Moyenne :", moyenne);
 
-  if (tab[tab.length - 1] > moyenne) {
-    console.log("Ce produit est trop cher");
-  } else {
-    console.log("Prix raisonnable");
+//   if (tab[tab.length - 1] > moyenne) {
+//     console.log("Ce produit est trop cher");
+//   } else {
+//     console.log("Prix raisonnable");
+//   }
+// }
+// EquilPanier();
+
+// challenge 7
+// function Progress() {
+//   let car = prompt("entre un chaine de caractere");
+//   for (let i = 0; i < car.length; i++) {
+//     console.log(car.substring(0, i));
+//   }
+// }
+// Progress();
+
+// challenge 8
+// function MiroirTab() {
+//   let tab = [];
+//   for (let i = 0; i < 3; i++) {
+//     let car = Number(prompt("entre un chaine de caractere"));
+//     tab.push(car);
+//   }
+
+//   let tab2 = [...tab].reverse("");
+//   console.log(tab);
+//   // console.log(tab2);
+//   console.log(tab.concat(tab2));
+// }
+// MiroirTab();
+
+// challenge 9
+let file = [];
+let command = "";
+
+while (command !== "fin") {
+  command = prompt("ajouter / servir / fin :");
+
+  if (command === "ajouter") {
+    file.push(prompt("donner moi votre nom :"));
+  }
+
+  if (command === "servir") {
+    file.shift();
   }
 }
-EquilPanier();
+
+console.log("File restante :", file);
