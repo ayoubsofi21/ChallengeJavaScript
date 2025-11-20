@@ -115,8 +115,8 @@ const prompt = require("prompt-sync")();
 //     nom: "ayoub",
 //     prenom: "sofi",
 //   };
-//   // let copieObj = structuredClone(obj);
-//   let  copieObj = { ...obj };
+//   let copieObj = structuredClone(obj);
+// //    copieObj = { ...obj };
 //   console.log(copieObj);
 // }
 // Cloner();
